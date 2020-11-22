@@ -1,14 +1,38 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.username}
-  ##${data.username}
-  ##${data.email}
-  ##${data.repo}
-  ##${data.installation}
-  ##${data.usge}
-  ##${data.contributing}
-  ##${data.tests}
-  ##${data.license}
+  return `
+ 
+  ## Username
+  ${data.username}
+
+  ## Title
+  ${data.title}
+
+  ## Repo
+  ${data.repo}
+  
+  ## Table of Contents
+  * Installation
+  * Usage
+  * License
+  * Contributing
+  * Tests
+  * Questions
+
+  To install necessary dependencies run the following command: 
+  ${data.installation}
+ 
+  ## Usage
+  ${data.usage}
+
+  ## Contributing
+  ${data.contributing}
+
+  To run tests, run the following command:
+  ${data.tests}
+
+  ## License
+  ${data.license}
 `;
 }
 
