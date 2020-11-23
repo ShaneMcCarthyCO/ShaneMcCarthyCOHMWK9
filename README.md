@@ -1,33 +1,20 @@
+README Generator
+This README Generator create a readme by prompting the user to answer several questions and generate a document from those answers.
 
- 
-  ## Username
-  ffd
+The user will be asked for:
 
-  ## Title
-  sdfd
+Their GitHub username
+Name of their repo
+The title of the project
+Installation command
+Usage
+Contributors
+Test command
+License
+Upon answering these questions, a README.md file will be generated with the answers given. Please reference README-example.MD file in the assets folder to see output. 
 
-  ## Repo
-  dfd
-  
-  ## Table of Contents
-  * Installation
-  * Usage
-  * License
-  * Contributing
-  * Tests
-  * Questions
+The document will be formatted in an appropriate way.
 
-  To install necessary dependencies run the following command: 
-  sfds
- 
-  ## Usage
-  ddadfa
+https://drive.google.com/file/d/1AFjrN9d6koQus9gTnrfe5DKe0azv4CrD/view
 
-  ## Contributing
-  fdgds
 
-  To run tests, run the following command:
-  ds
-
-  ## License
-  GNU AGPLv3

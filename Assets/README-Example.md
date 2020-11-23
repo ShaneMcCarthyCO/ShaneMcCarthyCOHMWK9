@@ -1,15 +1,13 @@
-// function to generate markdown for README
-function generateMarkdown(data) {
-  return `
+
  
   ## Username
-  ${data.username}
+  ShaneMcCarthyCO
 
   ## Title
-  ${data.title}
+  ReadMe Generator
 
   ## Repo
-  ${data.repo}
+  HMWK9
   
   ## Table of Contents
   * Installation
@@ -20,20 +18,16 @@ function generateMarkdown(data) {
   * Questions
 
   ## To install necessary dependencies run the following command: 
-  ${data.installation}
+  N/A
  
   ## Usage
-  ${data.usage}
+  N/A
 
   ## Contributing
-  ${data.contributing}
+  Share code recommendations.
 
   ## To run tests, run the following command:
-  ${data.tests}
+  No written tests
 
   ## License
-  ${data.license}
-`;
-}
-
-module.exports = generateMarkdown;
+  Mozilla Public License 2.0
