@@ -15,6 +15,8 @@ Upon answering these questions, a README.md file will be generated with the answ
 
 The document will be formatted in an appropriate way.
 
+Below is the screencastify link to watch the vidoe of the node index.js step by step. 
+
 https://drive.google.com/file/d/1AFjrN9d6koQus9gTnrfe5DKe0azv4CrD/view
 
 
